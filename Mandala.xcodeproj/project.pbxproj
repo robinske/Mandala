@@ -14,6 +14,8 @@
 		F328BF5A20110741009448F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F328BF5820110741009448F1 /* LaunchScreen.storyboard */; };
 		F328BF6520110741009448F1 /* MandalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328BF6420110741009448F1 /* MandalaTests.swift */; };
 		F328BF7020110742009448F1 /* MandalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328BF6F20110742009448F1 /* MandalaUITests.swift */; };
+		F328BF7E20110759009448F1 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328BF7D20110759009448F1 /* Mood.swift */; };
+		F328BF8020110791009448F1 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328BF7F20110791009448F1 /* MoodEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F328BF6B20110742009448F1 /* MandalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MandalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F328BF6F20110742009448F1 /* MandalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaUITests.swift; sourceTree = "<group>"; };
 		F328BF7120110742009448F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F328BF7D20110759009448F1 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		F328BF7F20110791009448F1 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		F328BF4320110741009448F1 = {
 			isa = PBXGroup;
 			children = (
+				F328BF7D20110759009448F1 /* Mood.swift */,
+				F328BF7F20110791009448F1 /* MoodEntry.swift */,
 				F328BF4E20110741009448F1 /* Mandala */,
 				F328BF6320110741009448F1 /* MandalaTests */,
 				F328BF6E20110742009448F1 /* MandalaUITests */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F328BF5220110741009448F1 /* ViewController.swift in Sources */,
+				F328BF7E20110759009448F1 /* Mood.swift in Sources */,
 				F328BF5020110741009448F1 /* AppDelegate.swift in Sources */,
+				F328BF8020110791009448F1 /* MoodEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
